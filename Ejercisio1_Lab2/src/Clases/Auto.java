@@ -24,8 +24,6 @@ public class Auto extends Thread {
             	Thread.sleep(randomNumber);
             	estacionamiento.salir(idCarro); 
             } catch (InterruptedException e) {
-                System.out.println("Thread interrupted.");
-                
             }
         }
     }
